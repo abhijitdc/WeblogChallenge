@@ -31,34 +31,20 @@ Data Preparation:
 
 Results:
 
-Inactivity duration for session boundary chosen 2765 seconds.
+    Inactivity duration for session boundary chosen 2765 seconds.
 
-Following IPs got removed due to filtering of missing user agent.
-    220.226.206.7 = Seems to be a service which is requesting recharge. Doesn't look like an actual user.
-    52.74.219.71 = Next most engaged user having long session length and most uniq url visits is a GOOGLE BOT.
+    Following IPs got removed due to filtering of missing user agent.
+        220.226.206.7 = Seems to be a service which is requesting recharge. Doesn't look like an actual user.
+        52.74.219.71 = Next most engaged user having long session length and most uniq url visits is a GOOGLE BOT.
 
+    Avg session length in seconds:  705.8581210874822
+    Avergae URL visits per session: 8.750932224457049
 
-Avg session length in seconds
-+-----------------+
-|  avg(sesslength)|
-+-----------------+
-|705.8581210874822|
-+-----------------+
+    Max session length in seconds: 7879
+    Most engaged user :
+        ip = 119.81.61.166
+        client machine type = Macintosh; Intel Mac OS X 10_7_3
 
-Avergae URL visits per session
-+-----------------+
-|      avg(urlset)|
-+-----------------+
-|8.750932224457049|
-+-----------------+
-
-Max session length 7879
-Most engaged user
-+-------------+--------------------+------+----------+----------+----------+
-|           ip|            clientyp|sessid|     maxts|     mints|sesslength|
-+-------------+--------------------+------+----------+----------+----------+
-|119.81.61.166|Macintosh; Intel ...|     5|1437589320|1437581441|      7879|
-+-------------+--------------------+------+----------+----------+----------+
 
 
 
