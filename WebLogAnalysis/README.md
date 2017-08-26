@@ -38,7 +38,7 @@ Following IPs got removed due to filtering of missing user agent.
     52.74.219.71 = Next most engaged user having long session length and most uniq url visits is a GOOGLE BOT.
 
 
-Avg session length
+Avg session length in seconds
 +-----------------+
 |  avg(sesslength)|
 +-----------------+
