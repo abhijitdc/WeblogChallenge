@@ -29,6 +29,12 @@ Data Preparation:
     Filter the group of IP+ client machine type where only one request found. Since we need at least two request to construct a session.
     Filter all records without a client device type from user agent.
 
+Inactivity Interval Analysis:
+
+    Considering user navigation behavior is a completely random activity and we have sufficiently large sample size then by empirical rule the 2 SD value can give us the time interval
+    value between two consecutive request where 95% user will make another request.Performed a min-max normalization on the time interval column (which gives the difference in seconds between
+    previous and current request) to minimize the impact of large outliers.Then calculated mean and population standard deviation. Took the 2SD value and transformed it back to seconds
+    from normalized form.
 
 Results:
 
