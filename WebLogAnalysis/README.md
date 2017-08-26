@@ -27,6 +27,7 @@ Data Preparation:
     so an IP like 070.168.168.001 could be treated differently from 70.168.168.1
 
     Filter the group of IP+ client machine type where only one request found. Since we need at least two request to construct a session.
+    Filter all records without a client device type from user agent.
 
 
 Results:
